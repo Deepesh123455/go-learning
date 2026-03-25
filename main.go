@@ -34,3 +34,16 @@
 // 	one(&a)
 // 	fmt.Println(a)
 // }
+
+package main
+
+import (
+	"fmt"
+	"math"
+	"math/rand"
+)
+
+func main() {
+	fmt.Println("My favorite number is", rand.Intn(10))
+	fmt.Println("The square root of 36 will be", math.Sqrt(36))
+}
