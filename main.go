@@ -35,15 +35,32 @@
 // 	fmt.Println(a)
 // }
 
-package main
+// package main
 
-import (
-	"fmt"
-	"math"
-	"math/rand"
-)
+// import (
+// 	"fmt"
+// 	"math"
+// 	"math/rand"
+// )
 
-func main() {
-	fmt.Println("My favorite number is", rand.Intn(10))
-	fmt.Println("The square root of 36 will be", math.Sqrt(36))
-}
+// func main() {
+// 	fmt.Println("My favorite number is", rand.Intn(10))
+// 	fmt.Println("The square root of 36 will be", math.Sqrt(36))
+// }
+
+// package main
+
+// import "fmt"
+
+// func main() {
+// 	var age int = 22
+// 	fmt.Println("My age is", age)
+// 	latency := 42.2
+// 	var character rune = 'D'
+// 	var name string = "deepesh"
+// 	name = "deepika"
+// 	fmt.Println("My latency is", latency)
+// 	fmt.Println("My character is", character)
+// 	fmt.Println("My name is", name)
+
+// }
